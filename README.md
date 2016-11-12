@@ -16,19 +16,19 @@
 
 ### 2.测试通过set方法进行依赖注入的用例 ###
 
- 放在test.edu.javaee.spring包中
+放在test.edu.javaee.spring包中
  
- 包含Dish.java、Atest.java、Btest.java
+包含Dish.java、Atest.java、Btest.java
  
- 测试用的XML文件是beans.xml
+测试用的XML文件是beans.xml
  
- ### 3.测试@autowire和@Compontent注解方法的测试用例 ###
+### 3.测试@autowire和@Compontent注解方法的测试用例 ###
  
- 放在了dev.edu.javaee.spring.testanno包中
+放在了dev.edu.javaee.spring.testanno包中
  
- 包含UserServiceImpl.Java、UserDaoImpl.java、UserDao1Impl.java、UserDao2Impl.java
+包含UserServiceImpl.Java、UserDaoImpl.java、UserDao1Impl.java、UserDao2Impl.java
  
- 测试用的XML文件是setPackage.xml 该配置文件指定了需要扫描的类包，类包及其递归子包中所有的类都会被处理
+测试用的XML文件是setPackage.xml 该配置文件指定了需要扫描的类包，类包及其递归子包中所有的类都会被处理
  
  
  *备注：*
