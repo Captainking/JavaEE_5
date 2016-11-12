@@ -36,4 +36,4 @@
  *标准的注解是@Autowired和@Component由于拼写错误写成了@Autowire和@Compontent*
        
        
- *@Compontent如果不指定参数的话默认为为所注解类的首字母小写形式否则要指定为@Compontent(id="***")*
+ *@Compontent如果不指定参数的话默认为为所注解类的首字母小写形式否则要指定为@Compontent(id="XXX")*
