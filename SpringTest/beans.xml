@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="egg dishes" class="test.edu.javaee.spring.Dishes">
+		<property name="dishName" value="助教你好帅"></property>
+		<property name="dishPrice" value="110"></property>
+		<property name="atest" ref="atest"></property>
+	</bean>
+	<bean id="atest" class="test.edu.javaee.spring.Atest">
+		<property name="name" value="真的好帅"></property>
+		<property name="btest" ref="btest"></property>
+	</bean>
+	<bean id="btest" class="test.edu.javaee.spring.Btest">
+		<property name="age" value="10000"></property>
+	</bean>
+</beans>
